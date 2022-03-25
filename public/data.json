@@ -1,0 +1,74 @@
+[
+    {
+       "name":"IWI UZI PRO Pistol 9mm Para, 4.5 Barrel",
+       "id": "1",
+       "price": 1209,
+       "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/32860/129350/856304004080__23827.1575690592.jpg?c=2"
+    },
+    {
+        "name": "Umarex Uzi BB CO2 Carbine Air Rifle",
+        "id": "2",
+        "price": 299,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/21461/115496/723364561009__23071.1575678456.jpg?c=2"
+    },
+    {
+        "name":"Smith & Wesson M&P 15-22 AR-15 Pistol",
+        "id":"3",
+        "price": 699,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/71416/170828/smithwesson-13321__87029.1623454905.jpg?c=2"
+    },
+    {
+        "name": "CZ Scorpion Evo 3 S1 Pistol 9mm",
+        "id":"4",
+        "price":979,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/36315/88819/806703913513__10312.1635532881.jpg?c=2"
+    },
+    {
+        "name":"Springfield Hellcat OSP 9mm",
+        "id":"5",
+        "price": 534,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/61885/89905/706397929480__92611.1575652385.jpg?c=2"
+    },
+    {
+        "name": "Kel-Tec PMR30 22 Win Mag",
+        "id": "6",
+        "price": 509,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/30292/87438/640832002676__59000.1575306734.jpg?c=2"
+    },
+    {
+        "name": "Kel-Tec PMR-30 .22 Mag, 4.3 Barrel",
+        "id": "7",
+        "price": 449,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/38434/135756/640832003314__15559.1575695935.jpg?c=2"
+    },
+    {
+        "name": "Canik SFX Rival OR 9mm, 5 Barrel"  ,
+        "id":"8",
+        "price": 655,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/75207/183003/century-caniksfxrival-hg6610tn__88723.1648146280.jpg?c=2"
+    },
+    {
+        "name": "Canik TP9SFx Whiteout 9mm, 5.2 Barrel",
+        "id": "9",
+        "price": 710,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/1280x1280/products/74357/179629/canik-caniktp9-hg6618n__52239.1639772150.jpg?c=2"
+    },
+    {
+        "name": "Umarex RWS 92 Air Pistol CO2 .177 Pellet Nickel",
+        "id": "10",
+        "price": 330,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/54820/96547/723364530012__71846.1575662046.jpg?c=2"
+    },
+    {
+        "name": "MasterPiece Arms MAC 11 9MM 30RD Magazine",
+        "id": "11",
+        "price": 519,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/974/89104/804879268574__73712.1575507567.jpg?c=2"
+    },
+    {
+        "name": "Masterpiece Arms 9mm Pistol, 7inc, 17rd",
+        "id": "12",
+        "price": 980,
+        "img": "https://cdn11.bigcommerce.com/s-1kqh9qmybo/images/stencil/640w/products/31727/128060/784672659741__79706.1575689494.jpg?c=2"
+    }
+]
