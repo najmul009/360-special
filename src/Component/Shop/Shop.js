@@ -17,17 +17,20 @@ const Shop = () => {
         const localStorCartData = getShoppingCart()
         setCart(localStorCartData)
     },[])
+    
+    // for click add 
     const addToCart=(product)=>{
         const itemCheck = addToStore(product.id)
-        
         setCart(itemCheck)   
     }
     
+    //remove from cart
     const removeCartData = ()=>{
         const emptyCart = deleteShoppingCart()
         setCart(emptyCart)
     }
 
+    //choose random one
     const choseOne=()=>{
         const luckyOne = randomone()
         setCart(luckyOne)

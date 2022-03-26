@@ -2,7 +2,7 @@
 const addToStore = (id)=>{
     let shoppingCart =[];
 
-    //get cart 
+    //get and set cart 
     const storedCart = localStorage.getItem('shopping-cart');
     
     if(storedCart){
