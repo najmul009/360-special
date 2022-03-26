@@ -5,7 +5,7 @@ import './Cart.css'
 
 
 const Cart = (props) => {
-    const {cartData,products} = props
+    const {cartData,products ,deleteCart,luckyOne } = props
     
     const selectedItem =[];
     cartData.forEach(id => {
@@ -24,8 +24,8 @@ const Cart = (props) => {
                     selectedItem.map(product => <CartProduct product={product} key={product.id}></CartProduct>)
                 }
             </div>
-            <button className='btn btn-primary mx-4 my-2'>chose one</button>
-            <button className='btn btn-danger mx-4 my-1'>delet all</button>
+            <button className='btn btn-primary mx-4 my-2' onClick={() => luckyOne()}>chose one</button>
+            <button className='btn btn-danger mx-4 my-1' onClick={() => deleteCart()} >delet all</button>
             
         </div>
     );

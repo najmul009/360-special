@@ -31,4 +31,22 @@ const addToStore = (id)=>{
     
 }
 
-export{addToStore}
+const getShoppingCart = ()=>{
+    const storedCart = localStorage.getItem('shopping-cart');
+    const shoppingCart = JSON.parse(storedCart);
+    return shoppingCart;
+}
+
+const deleteShoppingCart = () => {
+    let shoppingCart=[];
+    localStorage.removeItem('shopping-cart');
+    return shoppingCart;
+}
+
+const randomone = () => {
+    let storedCartData = getShoppingCart()
+    const dataLength = storedCartData.length
+    storedCartData= [storedCartData[Math.floor(Math.random()*dataLength)]]
+    return storedCartData;
+}
+export{addToStore, getShoppingCart,deleteShoppingCart,randomone}
