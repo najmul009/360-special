@@ -1,7 +1,8 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr 1fr
-
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(238, 235, 235);
+    
 }
 
 .shop{
@@ -10,7 +11,5 @@
     margin: auto;
     gap: 20px;
     margin-top: 30px;
-}
-.shopping-cart{
-    background-color: #fcd79f;
+    
 }
