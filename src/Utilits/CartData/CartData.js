@@ -33,8 +33,15 @@ const addToStore = (id)=>{
 
 const getShoppingCart = ()=>{
     const storedCart = localStorage.getItem('shopping-cart');
-    const shoppingCart = JSON.parse(storedCart);
-    return shoppingCart;
+    if(storedCart){
+        const shoppingCart = JSON.parse(storedCart);
+        return shoppingCart;
+    }
+    else{
+        const shoppingCart=[];
+        return shoppingCart;
+    }
+    
 }
 
 const deleteShoppingCart = () => {

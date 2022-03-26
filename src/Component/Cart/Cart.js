@@ -5,8 +5,8 @@ import './Cart.css'
 
 
 const Cart = (props) => {
-    const {cartData,products ,deleteCart,luckyOne } = props
     
+    const {cartData,products ,deleteCart,luckyOne } = props
     const selectedItem =[];
     cartData.forEach(id => {
         products.forEach(product => {
