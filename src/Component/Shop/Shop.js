@@ -34,7 +34,9 @@ const Shop = () => {
     }
     return (
         <div className='shop-container'>
+            
             <div className='shop'>
+                
                 {
                     products.map(product => <Product product={product} key={product.id} addToCart={addToCart}></Product>)
                 }

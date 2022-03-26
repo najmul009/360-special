@@ -1,8 +1,12 @@
 .shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    background-color: rgb(238, 235, 235);
+    /* display: grid;
+    grid-template-columns: 4fr 1fr; */
+    /* grid-auto-flow:column dense; */
+    /* grid-auto-flow: column; */
     
+    background-color: rgb(238, 235, 235);
+    display: flex;
+    flex-direction: row;
 }
 
 .shop{
@@ -11,5 +15,18 @@
     margin: auto;
     gap: 20px;
     margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     
+}
+.shopping-cart{
+    width: 90%;
+}
+@media screen and (max-width : 540px) {
+    .shop{
+        grid-template-columns: 1fr;
+    }
+    .shop-container{
+        flex-direction: column-reverse;
+    }
 }

@@ -19,6 +19,7 @@ const Cart = (props) => {
     return (
         <div className='card my-5 sticky-top'>
             <div className='card-header'><h2>Lucky Cart</h2></div>
+            <h5 className='text-danger'>"Chose only 4 guns."</h5>
             <div className='card-body'>
                 {
                     selectedItem.map(product => <CartProduct product={product} key={product.id}></CartProduct>)

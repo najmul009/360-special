@@ -1,0 +1,8 @@
+.qna{
+    width: 50%;
+}
+@media screen and (max-width : 540px) {
+    .qna{
+        width: 90%;
+    }
+}
